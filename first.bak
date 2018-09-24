@@ -1,0 +1,458 @@
+EESchema Schematic File Version 4
+LIBS:first-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_POT RV1
+U 1 1 5B9CEDBB
+P 5150 1700
+F 0 "RV1" H 5080 1746 50  0000 R CNN
+F 1 "R_POT" H 5080 1655 50  0000 R CNN
+F 2 "" H 5150 1700 50  0001 C CNN
+F 3 "~" H 5150 1700 50  0001 C CNN
+	1    5150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5B9D0974
+P 2400 2000
+F 0 "SW1" H 2400 2285 50  0000 C CNN
+F 1 "SW_Push" H 2400 2194 50  0000 C CNN
+F 2 "" H 2400 2200 50  0001 C CNN
+F 3 "" H 2400 2200 50  0001 C CNN
+	1    2400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5B9D0A3B
+P 2400 2350
+F 0 "SW2" H 2400 2635 50  0000 C CNN
+F 1 "SW_Push" H 2400 2544 50  0000 C CNN
+F 2 "" H 2400 2550 50  0001 C CNN
+F 3 "" H 2400 2550 50  0001 C CNN
+	1    2400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5B9D0C64
+P 2400 2700
+F 0 "SW3" H 2400 2985 50  0000 C CNN
+F 1 "SW_Push" H 2400 2894 50  0000 C CNN
+F 2 "" H 2400 2900 50  0001 C CNN
+F 3 "" H 2400 2900 50  0001 C CNN
+	1    2400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5B9D0CBB
+P 2400 3050
+F 0 "SW4" H 2400 3335 50  0000 C CNN
+F 1 "SW_Push" H 2400 3244 50  0000 C CNN
+F 2 "" H 2400 3250 50  0001 C CNN
+F 3 "" H 2400 3250 50  0001 C CNN
+	1    2400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5B9D0D27
+P 2400 3400
+F 0 "SW5" H 2400 3685 50  0000 C CNN
+F 1 "SW_Push" H 2400 3594 50  0000 C CNN
+F 2 "" H 2400 3600 50  0001 C CNN
+F 3 "" H 2400 3600 50  0001 C CNN
+	1    2400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2000 3350 2000
+Wire Wire Line
+	3350 2000 3350 2400
+Wire Wire Line
+	3300 2500 3300 2350
+Wire Wire Line
+	3300 2350 2600 2350
+Wire Wire Line
+	2600 2700 2600 2600
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5B9D2304
+P 2400 3750
+F 0 "SW6" H 2400 4035 50  0000 C CNN
+F 1 "SW_Push" H 2400 3944 50  0000 C CNN
+F 2 "" H 2400 3950 50  0001 C CNN
+F 3 "" H 2400 3950 50  0001 C CNN
+	1    2400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3750 2750 3750
+Wire Wire Line
+	2650 2700 2650 3050
+Wire Wire Line
+	2650 3050 2600 3050
+Wire Wire Line
+	2600 3400 2700 3400
+Wire Wire Line
+	2700 3400 2700 2800
+Wire Wire Line
+	2750 2900 2750 3750
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5B9D3D23
+P 2400 4100
+F 0 "SW7" H 2400 4385 50  0000 C CNN
+F 1 "SW_Push" H 2400 4294 50  0000 C CNN
+F 2 "" H 2400 4300 50  0001 C CNN
+F 3 "" H 2400 4300 50  0001 C CNN
+	1    2400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5B9D3DAD
+P 2400 4450
+F 0 "SW8" H 2400 4735 50  0000 C CNN
+F 1 "SW_Push" H 2400 4644 50  0000 C CNN
+F 2 "" H 2400 4650 50  0001 C CNN
+F 3 "" H 2400 4650 50  0001 C CNN
+	1    2400 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4100 2800 4100
+Wire Wire Line
+	2800 4100 2800 3000
+Wire Wire Line
+	2850 3100 2850 4450
+Wire Wire Line
+	2850 4450 2600 4450
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5B9D4E0A
+P 2400 4800
+F 0 "SW9" H 2400 5085 50  0000 C CNN
+F 1 "SW_Push" H 2400 4994 50  0000 C CNN
+F 2 "" H 2400 5000 50  0001 C CNN
+F 3 "" H 2400 5000 50  0001 C CNN
+	1    2400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5B9D4E81
+P 2400 5150
+F 0 "SW10" H 2400 5435 50  0000 C CNN
+F 1 "SW_Push" H 2400 5344 50  0000 C CNN
+F 2 "" H 2400 5350 50  0001 C CNN
+F 3 "" H 2400 5350 50  0001 C CNN
+	1    2400 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4800 2900 4800
+Wire Wire Line
+	2900 4800 2900 3200
+Wire Wire Line
+	2950 3300 2950 5150
+Wire Wire Line
+	2950 5150 2600 5150
+Wire Wire Line
+	2200 5150 2200 4800
+Connection ~ 2200 2000
+Wire Wire Line
+	2200 2000 2200 1600
+Connection ~ 2200 2350
+Wire Wire Line
+	2200 2350 2200 2000
+Connection ~ 2200 2700
+Wire Wire Line
+	2200 2700 2200 2350
+Connection ~ 2200 3050
+Wire Wire Line
+	2200 3050 2200 2700
+Connection ~ 2200 3400
+Wire Wire Line
+	2200 3400 2200 3050
+Connection ~ 2200 3750
+Wire Wire Line
+	2200 3750 2200 3400
+Connection ~ 2200 4100
+Wire Wire Line
+	2200 4100 2200 3750
+Connection ~ 2200 4450
+Wire Wire Line
+	2200 4450 2200 4100
+Connection ~ 2200 4800
+Wire Wire Line
+	2200 4800 2200 4450
+Wire Wire Line
+	5150 1550 5600 1550
+Wire Wire Line
+	5150 1850 5600 1850
+$Comp
+L Device:R_POT RV2
+U 1 1 5B9D8BFE
+P 5600 1700
+F 0 "RV2" H 5530 1746 50  0000 R CNN
+F 1 "R_POT" H 5530 1655 50  0000 R CNN
+F 2 "" H 5600 1700 50  0001 C CNN
+F 3 "~" H 5600 1700 50  0001 C CNN
+	1    5600 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 1550
+Wire Wire Line
+	5600 1550 6050 1550
+Connection ~ 5600 1850
+Wire Wire Line
+	5600 1850 6050 1850
+$Comp
+L Device:R_POT RV3
+U 1 1 5B9D8C69
+P 6050 1700
+F 0 "RV3" H 5980 1746 50  0000 R CNN
+F 1 "R_POT" H 5980 1655 50  0000 R CNN
+F 2 "" H 6050 1700 50  0001 C CNN
+F 3 "~" H 6050 1700 50  0001 C CNN
+	1    6050 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1700 5300 3300
+Wire Wire Line
+	5750 1700 5750 3400
+Wire Wire Line
+	6200 1700 6200 3500
+Text Notes 7450 7500 0    50   ~ 0
+Portable HOTAS 1.0
+Wire Wire Line
+	3350 2400 3500 2400
+Wire Wire Line
+	3300 2500 3500 2500
+Wire Wire Line
+	2600 2600 3500 2600
+Wire Wire Line
+	2650 2700 3500 2700
+Wire Wire Line
+	2700 2800 3500 2800
+Wire Wire Line
+	2750 2900 3500 2900
+Wire Wire Line
+	2800 3000 3500 3000
+Wire Wire Line
+	2850 3100 3500 3100
+Wire Wire Line
+	2900 3200 3500 3200
+Wire Wire Line
+	2950 3300 3500 3300
+Text Label 3750 3200 0    50   ~ 0
+D7
+Text Label 3750 3300 0    50   ~ 0
+D8
+Text Label 4700 3500 0    50   ~ 0
+A0
+Text Label 4700 3400 0    50   ~ 0
+A1
+Text Label 4700 3300 0    50   ~ 0
+A2
+Text Label 4700 3200 0    50   ~ 0
+A3
+Text Label 4700 3100 0    50   ~ 0
+A4
+Text Label 4700 3000 0    50   ~ 0
+A5
+Text Label 3750 2700 0    50   ~ 0
+D2
+Text Label 3750 2800 0    50   ~ 0
+D3
+Text Label 3750 2900 0    50   ~ 0
+D4
+Text Label 3750 3000 0    50   ~ 0
+D5
+Text Label 3750 3100 0    50   ~ 0
+D6
+Text Label 4650 2500 0    50   ~ 0
+GND
+Text Label 4650 2700 0    50   ~ 0
+5V
+Text Label 4650 2600 0    50   ~ 0
+RESET
+Connection ~ 5150 1850
+Wire Wire Line
+	2750 1850 2750 1600
+Wire Wire Line
+	2750 1600 2200 1600
+$Comp
+L arduino_micro_shield:ARDUINO_MICRO_SHIELD U1
+U 1 1 5B9D09FF
+P 4350 4900
+F 0 "U1" V 4153 5375 60  0000 C CNN
+F 1 "ARDUINO_MICRO_SHIELD" V 4259 5375 60  0000 C CNN
+F 2 "" H 4750 4850 60  0000 C CNN
+F 3 "" H 4750 4850 60  0000 C CNN
+	1    4350 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3400 5750 3400
+Wire Wire Line
+	5000 3300 5300 3300
+Wire Wire Line
+	2750 1850 5150 1850
+Wire Wire Line
+	5150 1850 5150 2500
+Wire Wire Line
+	5150 2500 5000 2500
+Wire Wire Line
+	6050 1550 6250 1550
+Connection ~ 6050 1550
+Wire Wire Line
+	5000 2700 6250 2700
+Wire Wire Line
+	6250 1550 6250 2700
+Text Label 3750 2600 0    50   ~ 0
+GND
+Wire Wire Line
+	5000 3500 6200 3500
+Text Label 3750 2500 0    50   ~ 0
+D0
+Text Label 3750 2400 0    50   ~ 0
+D1
+$Comp
+L Device:R_POT RVX
+U 1 1 5BA39E73
+P 6500 1700
+F 0 "RVX" H 6430 1746 50  0000 R CNN
+F 1 "R_POT" H 6430 1655 50  0000 R CNN
+F 2 "" H 6500 1700 50  0001 C CNN
+F 3 "~" H 6500 1700 50  0001 C CNN
+	1    6500 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RVY
+U 1 1 5BA3ADE9
+P 6900 1700
+F 0 "RVY" H 6830 1746 50  0000 R CNN
+F 1 "R_POT" H 6830 1655 50  0000 R CNN
+F 2 "" H 6900 1700 50  0001 C CNN
+F 3 "~" H 6900 1700 50  0001 C CNN
+	1    6900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RVZ
+U 1 1 5BA3BD6D
+P 7300 1700
+F 0 "RVZ" H 7230 1746 50  0000 R CNN
+F 1 "R_POT" H 7230 1655 50  0000 R CNN
+F 2 "" H 7300 1700 50  0001 C CNN
+F 3 "~" H 7300 1700 50  0001 C CNN
+	1    7300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3000 6650 3000
+Wire Wire Line
+	5000 3100 7050 3100
+Wire Wire Line
+	5000 3200 7450 3200
+Wire Wire Line
+	6650 1700 6650 3000
+Wire Wire Line
+	7050 1700 7050 3100
+Wire Wire Line
+	7450 1700 7450 3200
+Wire Wire Line
+	7300 1550 6900 1550
+Connection ~ 6250 1550
+Connection ~ 6500 1550
+Wire Wire Line
+	6500 1550 6250 1550
+Connection ~ 6900 1550
+Wire Wire Line
+	6900 1550 6500 1550
+Wire Wire Line
+	7300 1850 6900 1850
+Connection ~ 6050 1850
+Connection ~ 6500 1850
+Wire Wire Line
+	6500 1850 6050 1850
+Connection ~ 6900 1850
+Wire Wire Line
+	6900 1850 6500 1850
+Text Notes 4850 6850 0    50   ~ 0
+USB\n
+$Comp
+L Connector:Conn_01x17_Female J1
+U 1 1 5BA483F1
+P 4150 5750
+F 0 "J1" H 4177 5776 50  0000 L CNN
+F 1 "Conn_01x17_Female" H 4177 5685 50  0000 L CNN
+F 2 "" H 4150 5750 50  0001 C CNN
+F 3 "~" H 4150 5750 50  0001 C CNN
+	1    4150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x17_Female J2
+U 1 1 5BA4D3E3
+P 5500 5750
+F 0 "J2" H 5394 6735 50  0000 C CNN
+F 1 "Conn_01x17_Female" H 5394 6644 50  0000 C CNN
+F 2 "" H 5500 5750 50  0001 C CNN
+F 3 "~" H 5500 5750 50  0001 C CNN
+	1    5500 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Female J3
+U 1 1 5BA5B1D7
+P 3700 2800
+F 0 "J3" H 3727 2776 50  0000 L CNN
+F 1 "Conn_01x10_Female" H 3727 2685 50  0000 L CNN
+F 2 "" H 3700 2800 50  0001 C CNN
+F 3 "~" H 3700 2800 50  0001 C CNN
+	1    3700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J4
+U 1 1 5BA5D891
+P 4800 3300
+F 0 "J4" H 4694 2775 50  0000 C CNN
+F 1 "Conn_01x06_Female" H 4694 2866 50  0000 C CNN
+F 2 "" H 4800 3300 50  0001 C CNN
+F 3 "~" H 4800 3300 50  0001 C CNN
+	1    4800 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J5
+U 1 1 5BA5DF21
+P 4800 2600
+F 0 "J5" H 4694 2275 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 4694 2366 50  0000 C CNN
+F 2 "" H 4800 2600 50  0001 C CNN
+F 3 "~" H 4800 2600 50  0001 C CNN
+	1    4800 2600
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
